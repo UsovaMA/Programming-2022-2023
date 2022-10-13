@@ -4,8 +4,8 @@
 int main() {
   char* str = (char*)malloc(sizeof(char) * 100);
 
-  gets(str);    // аналог scanf для строк
-  puts(str);    // аналог printf для строк
+  gets(str);    // Р°РЅР°Р»РѕРі scanf РґР»СЏ СЃС‚СЂРѕРє
+  puts(str);    // Р°РЅР°Р»РѕРі printf РґР»СЏ СЃС‚СЂРѕРє
 
   int size = 0;
   while (str[size] != '\0') {
